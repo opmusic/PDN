@@ -1,0 +1,4 @@
+{"pname": "peer5", "signs": [["com.peer5.android", "high"], ["com.peer5.ApiKey", "high"], ["com.peer5.sdk", "high"]]}
+{"pname": "viblast", "signs": [["com.viblast.android", "high"], ["libviblast.so", "high"], ["libnative-viblast.jni.so"]]}
+{"pname": "strivetech", "signs": [["cdn.strivetech.io", "high"], ["io.strivetech.androidsdk", "high"]]}
+{"pname": "streamroot", "signs": [["io.streamroot.dna", "high"], ["io.streamroot.dna.StreamrootKey", "high"]]}

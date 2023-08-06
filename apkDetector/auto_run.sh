@@ -1,0 +1,1 @@
+nohup python3 apk_detector_workflow_mp.py temp/ androzoo_by_install_1m_part1.csv pdn_signs.json p2p_apk_detection_20210108/ ./apktool [your_androzoo_key_path] -dt pdn_signs -ndep 10 -ndop 2 -to 800000 -adf 2000-01-01 -bdf 2200-01-01 &

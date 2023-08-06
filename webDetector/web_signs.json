@@ -1,0 +1,6 @@
+{"pname": "peer5", "signs": [["api\\.peer5\\.com/peer5\\.js\\?id=([^\"<>,;]*)", "high"], ["api\\.peer5\\.com/peer5\\.(.*)\\.plugin\\.js", "high"], ["api\\.peer5\\.com", "low"], ["ws\\.peer5\\.com", "low"]]}
+{"pname": "viblast", "signs": [["data-viblast-key", "high"], ["viblast.js", "high"], ["cs\\.viblast\\.com", "low"], ["cdn\\.viblast\\.com", "low"]]}
+{"pname": "strivetech", "signs": [["cdn\\.strivetech\\.io/([^\"<>,;]*)\\.js", "high"], ["web-v2\\.strivetech\\.io","low"]]}
+{"pname": "streamroot", "signs": [["cdn\\.streamroot\\.io/([^\"<>,;]*)\\.js\\?srKey=([^\"<>,;]*)", "high"], ["cdn\\.streamroot\\.io/([^\"<>,;]*)\\.js", "high"], ["cdn.streamroot.io","low"]]}
+{"pname": "vidict", "signs": [["cdnjs\\.vidict\\.net/scripts/vidictPeer\\.min\\.js\\?id=([^\"<>,;]*)", "high"],["cdnjs\\.vidict\\.net/scripts/vidictPeer([^\"<>,;]*)\\.js","high"], ["cdnjs\\.vidict\\.net","low"]]}
+{"pname": "native", "signs": [["iceServers:","low"]]}
