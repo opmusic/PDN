@@ -73,7 +73,7 @@ def set_proxy():
 
         print("-----------start an https proxy on localhost------------")
         p = subprocess.Popen("docker run -it \
-              -e \"PORT=8000\" \
+              -e \"PORT=80\" \
               -p 443:443 \
               --rm \
               esplo/docker-local-ssl-termination-proxy", shell=True)
