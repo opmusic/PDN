@@ -3,6 +3,7 @@ import json
 import time
 import os
 
+#remove local host ip
 local_host = '192.168.0.243'
 
 def parse_pcap_file(pcapfile, jsonfile):

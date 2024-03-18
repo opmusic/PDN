@@ -1,0 +1,40 @@
+services:
+  peer1:
+    image: selenium/standalone-chrome
+    container_name: chrome1
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4443:4444"
+
+  peer2:
+    image: selenium/standalone-chrome
+    container_name: chrome2
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4444:4444"
+
+  peer3:
+    image: selenium/standalone-chrome
+    container_name: chrome3
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4445:4444"
+
+  peer4:
+    image: selenium/standalone-chrome
+    container_name: chrome4
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4446:4444"
+
+  peer5:
+    image: selenium/standalone-chrome
+    container_name: chrome5
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4447:4444"
